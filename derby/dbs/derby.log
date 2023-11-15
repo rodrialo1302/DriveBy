@@ -1,0 +1,20 @@
+Tue May 23 17:21:18 CEST 2023 : Apache Derby Network Server - 10.14.2.0 - (1828579) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Tue May 23 17:21:18 CEST 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0188-4933-4b6c-ffff8e7d2ac2 
+on database directory C:\Users\mario\Documents\INF\3º\SSW\New Folder\DriveBy\derby\dbs\DriveBy with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+Loaded from file:/C:/Users/mario/Documents/INF/3%c2%ba/SSW/New%20Folder/DriveBy/derby/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=15.0.2+7-27
+user.dir=C:\Users\mario\Documents\INF\3º\SSW\New Folder\DriveBy\derby
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\mario\Documents\INF\3º\SSW\New Folder\DriveBy\derby\dbs
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 23 17:22:34 CEST 2023: Shutting down Derby engine
+----------------------------------------------------------------
+Tue May 23 17:22:34 CEST 2023:
+Shutting down instance a816c00e-0188-4933-4b6c-ffff8e7d2ac2 on database directory C:\Users\mario\Documents\INF\3º\SSW\New Folder\DriveBy\derby\dbs\DriveBy with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
+----------------------------------------------------------------

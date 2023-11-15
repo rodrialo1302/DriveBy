@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DriveBy</title>
+        <link rel="stylesheet" type="text/css" href="css/dbchangeprofile.css">
+         <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="left">
+                    <li><a href="/DriveBy/main"><img class="static" src="img/home.png"><img class="active" src="img/home gif.gif" alt="Button 1"></a></li>
+                    <li><a href="/DriveBy/dbpost.html"><img src="img/post.png" alt="Button 2"></a></li>
+                </ul>
+                <ul class="right">
+                    <li><a href="/DriveBy/profile"><img src="img/account.png" alt="Button 3"></a></li>
+          
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="formbox">
+                <div class = "form">
+                    <h1>Modificar Perfil</h1>
+                    <h3>Rellene la siguiente información:</h3>
+                    <form action="edit">
+                        <label>Nuevo correo electronico:</label>
+                        <input type="text" id="mail" name="mail" value="" maxlength="20" placeholder="Usuario">
+                        <br>
+
+                        <label> Nuevo nombre completo:
+                            <input type="text" id="completeName" name="completeName" value="" placeholder="Nombre Completo">
+                        </label>
+                        <br>
+
+                        <label> Modificar coche asociado:
+                            <input type="text" id="car" name="car" value="" placeholder="Coche Asociado">
+                        </label>
+                        <br>
+
+                        <label for="bio">Modificar Bio:</label>
+                        <textarea id="bio" name="bio" rows="6" maxlength = "250" placeholder="Biografia"></textarea>
+                        <div class = "js"><label> (Esto se hará dinámico) 0/250  </label></div>
+                        <br>
+
+                        <div class = "bottomButtons">
+                            <div class = "bottomButtons2">
+                                <div> <input type="button" id="cpass" value="Modificar Contraseña" onclick = "location.href='dbsendmail.html';"></div>
+                            </div>
+                            <br>
+                            <br>
+                            <button type="submit">Guardar</button>
+                            <input type="reset" value="Limpiar">
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DriveBy</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/dbregister.css">
+    </head>
+    <body>
+        <main>
+            <div class="formbox">
+                <div class = "form">
+                    <h1>Nuevo Usuario</h1>
+                    <h3>Rellene la siguiente información:</h3>
+                    <form method="post" enctype="multipart/form-data" action="register">
+
+                        <label>Nombre de usuario:</label>
+                        <input type="text" id="username" name="username" value="" maxlength="20" placeholder="Usuario">
+                        <br>
+
+                        <label> Nombre Completo:
+                            <input type="text" id="completeName" name="completeName" value="" placeholder="Nombre Completo">
+                        </label>
+                        <br>
+
+                        <label> Correo electrónico:
+                            <input type="text" id="mail" name="mail" value="" placeholder="Correo electronico">
+                        </label>
+                        <br>
+
+                        <label for="password">Contraseña:
+                            <input type="password" id="password" name="password" placeholder="Contraseña">
+                        </label>
+                        <br>
+                        <label for="confirm-password">Confirmar contraseña:
+                            <input type="password" id="confirm-password" name="confirmPassword" placeholder="Contraseña">
+                        </label>
+                        <br>
+
+                        <label> Coche Asociado (Opcional):
+                            <input type="text" id="car" name="car" value="" placeholder="Coche Asociado">
+                        </label>
+                        <br>
+
+                        <label for="bio">Bio (Opcional):</label>
+                        <textarea id="bio" name="bio" rows="4" maxlength = "250" placeholder="Biografia"></textarea>
+                        <div class = "js"><label> (Esto se hará dinámico) 0/250  </label></div>
+
+
+
+                        <div class = "bottomButtons">
+
+                            <label for="upload"> Subir imagen de perfil </label> <!-- Aqui con JavaScript se pone que se enseñe la foto escogida una vez subida y se valida si es una imagen o no-->
+                            <input type="file" id="upload" name="upload" accept = "image/*" hidden>
+                            <br>
+                            <br>
+
+                            <button type="submit">Registrar</button>
+                            <input type="reset" value="Limpiar">
+                        </div>
+                    </form>
+                    <br> <br>
+                </div>
+            </div>
+
+        </main>
+    </body>
+</html>

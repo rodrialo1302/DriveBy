@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<title>DriveBy</title>
+	<link rel="stylesheet" type="text/css" href="css/dbpost.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="left">
+				<li><a href="/DriveBy/main"><img class="static" src="img/home.png"><img class="active" src="img/home gif.gif" alt="Button 1"></a></li>
+				<li><a href="dbpost.html"><img src="img/post.png" alt="Button 2"></a></li>
+			</ul>
+			<ul class="right">
+				<li><a href="/DriveBy/profile"><img src="img/account.png" alt="Button 3"></a></li>
+                                <li><a href="/DriveBy/dbstore.html"><img src="img/shop.png" alt="Button 4"></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="box-container">
+				<h1> Crea tu publicacion</h1>
+                                <form method="POST" enctype="multipart/form-data" action="post">				
+				<div class="box">
+				<textarea name="description" rows="10" cols="100" placeholder="Escriba su texto aqui"></textarea>
+				</div>
+				<br>
+				<div class="box">
+
+					
+						<p>Localizacion:
+							<input name="location" type="text" size="25">
+						</p>
+						<br>
+						<p>Tipo de alerta:
+							<select name="alert_type">
+								<option selected>Congestion de Trafico</option>
+								<option>Obstaculo(Accidente,Obras,Desvio)</option>
+								<option>Control</option>
+								<option>Aviso</option>
+							</select>
+						</p>
+						<br>
+						<p>
+							<label for="upload"> Subir Imagen</label> <!-- Aqui con JavaScript se pone que se enseñe la foto escogida una vez subida y se valida si es una imagen o no-->
+							<input type="file" id="upload" name="upload" accept = "image/*" hidden>
+						  <br>
+						</p>
+						<br>
+						<p>
+							<button type="submit">Publicar</button>
+							<input type="reset" value="Limpiar">
+						</p>
+					</form>
+				</div>
+		</div>
+	</main>	
+</body>
+</html>
+	
